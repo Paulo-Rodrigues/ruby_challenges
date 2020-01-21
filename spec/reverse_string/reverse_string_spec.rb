@@ -5,3 +5,9 @@ describe 'reverse string custom method' do
     expect(reverse_string('some text')).to eq('txet emos')
   end
 end
+
+describe 'reverse string roots' do
+  it 'returns a string reverse without using reverse method' do
+    expect(reverse_string_roots('some text')).to eq('txet emos')
+  end
+end
